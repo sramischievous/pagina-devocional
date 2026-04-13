@@ -21,7 +21,8 @@ export default function Home() {
       left: 0,
       width: "100%",
       height: "100%",
-      background: "rgba(0, 0, 0, 0)"
+      background: "rgba(0, 0, 0, 0)",
+      pointerEvents: "none"
     }}
   ></div>
 
@@ -31,7 +32,8 @@ export default function Home() {
     fontWeight: "700",
     lineHeight: "1.2",
     letterSpacing: "-0.5px"}}>
-    <h1>1 minuto por dia pode transformar<br />sua vida com Deus</h1>
+    <h1>1 minuto por dia pode transformar
+      <p></p>sua vida com Deus</h1>
 
 <p
   style={{
@@ -46,7 +48,7 @@ export default function Home() {
   Descubra como ter mais paz, direção e proximidade com Deus
 </p>
 
-    <a href="https://pay.kiwify.com.br/BaglSbF" target="_blank" rel="noreferrer noopener" style={buttonStyle}>
+    <a href="https://pay.kiwify.com.br/BaglSbF" style={buttonStyle}>
       QUERO COMEÇAR MEU MOMENTO COM DEUS
     </a>
   </div>
@@ -224,7 +226,7 @@ export default function Home() {
           Acesso imediato
         </p>
 
-        <a href="https://pay.kiwify.com.br/BaglSbF" target="_blank" rel="noreferrer noopener" style={buttonStyle}>
+        <a href="https://pay.kiwify.com.br/BaglSbF" style={buttonStyle}>
           QUERO GARANTIR MEU CONTATO COM DEUS AGORA
         </a>
       </section>
@@ -243,7 +245,7 @@ export default function Home() {
           Comece hoje seu momento com Deus
         </h2>
 
-        <a href="https://pay.kiwify.com.br/BaglSbF" target="_blank" rel="noreferrer noopener" style={buttonStyle}>
+        <a href="https://pay.kiwify.com.br/BaglSbF" style={buttonStyle}>
           COMEÇAR AGORA
         </a>
       </section>
